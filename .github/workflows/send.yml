@@ -6,7 +6,7 @@ on:
       dry_run:
         description: Only verify login and friends without sending
         type: boolean
-        default: false
+        default: true
   schedule:
     - cron: "30 6 * * *"
       timezone: "Asia/Shanghai"
